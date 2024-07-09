@@ -1,7 +1,7 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import bodyParser from 'body-parser';
-import eventRoutes from './routes/eventRoutes';
+import eventRoutes from './src/routes/eventRoutes';
 
 const app = express();
 const port = 5000;
