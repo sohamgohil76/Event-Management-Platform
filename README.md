@@ -43,6 +43,27 @@ npm start
 You can use tools like Postman to interact with the APIs.
 Import the provided Postman collection (event-management.postman_collection.json) for sample requests and responses.
 
+## Endpoints
+1. Add a New Event
+Endpoint: POST --> localhost:5000/api/events
+Description: Adds a new event to the EMP(Event management platform).
+
+2. Update an Existing Event
+Endpoint: PUT --> http://localhost:5000/api/events/:id
+Description: Updates an existing event by its ID
+
+3. Delete an Event
+Endpoint: DELETE --> http://localhost:5000/api/events/:id
+Description: Deletes an event by its ID.
+
+4. Retrieve an Event by ID
+Endpoint: GET --> http://localhost:5000/api/events/:id
+Description: Retrieves an event by its ID.
+
+5. List All Events with Optional Filters
+Endpoint: GET --> http://localhost:5000/api/events
+Description: Lists all events.
+
 ---
 
 This README.md file provides a structured overview of your project, guiding users on how to set up and use the Event Management Platform, and also encourages contributions. Adjust the details (like MongoDB URI placeholders) to match your specific setup and preferences.
